@@ -1,0 +1,30 @@
+.a1{
+    color: rgb(162, 243, 12); opacity: 0.6;
+}
+.a2{
+    background-color: slategrey;
+}
+.a3{
+    background-image: url('img.png');
+    background-position: left;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+.t1{
+    color: crimson;border-style: groove;border-bottom-color: cornflowerblue;
+}
+.b1{
+    border: rgb(8, 214, 214); border-style: dotted;border-radius: 150px;border-width: 5px;
+}
+.b2{
+    border: 2px;border-color: chartreuse;border-style: solid;border-radius: 20px;
+}
+.b3{
+    border-color: darkorange;border-style: dashed;border-radius: 10mm;border-width: 4px;border-top: blue;border-bottom-width:5px ;
+}
+.m1{
+    margin: 10px;margin-top: 20px;padding: 30px;background-color: lightskyblue;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;text-transform: capitalize;text-shadow:2px 3px 2px gold;
+}
+.t1{
+    text text-align: center; text-decoration: underline;letter-spacing:0px;word-spacing:0px;
+}
