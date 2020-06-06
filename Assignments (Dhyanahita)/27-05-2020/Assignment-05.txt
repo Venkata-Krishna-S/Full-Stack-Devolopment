@@ -1,0 +1,6 @@
+1. JSON or JavaScript Object Notation:  is an encoding scheme that is designed to eliminate the need for an ad-hoc code for each application to communicate with servers that communicate in a defined way. JSON API module exposes an implementation for data stores and data structures, such as entity types, bundles, and fields.
+
+	
+2. SOAP: is a standard communication protocol system that permits processes using different operating systems like Linux and Windows to communicate via HTTP and its XML. SOAP based APIs are designed to create, recover, update and delete records like accounts, passwords, leads, and custom objects.
+
+3. REST API: is an application program interface (API) that uses HTTP requests to GET, PUT, POST and DELETE data. ... REST technology is generally preferred over the more robust Simple Object Access Protocol (SOAP) technology because REST uses less bandwidth, making it more suitable for efficient internet usage.
