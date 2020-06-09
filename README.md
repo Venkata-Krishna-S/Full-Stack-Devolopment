@@ -1,4 +1,7 @@
 # Full-Stack-Devolopment
+● The entire course is broken down into five separate segments: 
+		○ Frontend, Backend, Database, Other Essential Technologies, and Debugging/Version Control. 
+		○ Each section includes multiple technologies to help you gain more experience as a developer.
 ● HTML & CSS - Content, layout, and styling of web page 
 ● Bootstrap - is a framework to help you design websites faster and easier
 ● JavaScript Programming - The programming language of the Web
