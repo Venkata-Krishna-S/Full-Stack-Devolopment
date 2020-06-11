@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RegularExpressions</title>
+        <script>function Val(){
+            var input = document.getElementById("mobnum").value;
+            if (/^[6-9][0-9]{9}$/.test(input)) {window.alert('valid phone number');   
+            } 
+            else {window.alert('invalid number');
+            document.getElementById('mobnum').focus();
+                
+            }
+        }</script>
+    </head>
+    <body>
+        <input type="text" id="mobnum">
+        <button onclick="Val()">Validate</button>
+    </body>
+</html>

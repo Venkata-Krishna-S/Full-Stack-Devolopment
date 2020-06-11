@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>validate_rollnumber</title>
+        <script>function valroll(){
+            var num = document.getElementById('roll').value;
+            if (/^[221710309]{9}[0-399]{3}$/.test(num)) {
+                window.alert("welcome User")
+            } else {
+                window.alert("wrong roll number")
+            }
+        }</script>
+    </head>
+    <body>
+        <input type="text" id="roll">
+        <button onclick="valroll()">submit</button>
+    </body>
+</html>

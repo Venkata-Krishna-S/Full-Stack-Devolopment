@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>validate_email</title>
+        <script>function validate_email(){
+            var num = document.getElementById('email').value;
+            if (/[a-zA-Z0-9.]{6,9}[@][a-z]{3,9}[.][a-z]{3,5}/.test(num)) {window.alert("valid email");
+                
+            } else {
+                window.alert("please enter a valid emialID");
+            }
+        }</script>
+    </head>
+    <body>
+        <input type="text" id="email"> <br>
+        <button onclick="validate_email()">Submit</button>
+    </body>
+</html>
