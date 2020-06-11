@@ -3,7 +3,7 @@ function val_all() {
     var mb = document.getElementById('Mobile').value;
     var em = document.getElementById("Emial ID").value;
     var rn = document.getElementById("Roll number").value;
-    var us = /^[A-Z][a-zA-Z]{5,15}$/;
+    var us = /^[A-Z]{5,15}$/;
     var mo = /^[6-9][0-9]{9}$/;
     var emid = /^[a-zA-Z.]{6,15}[@][a-z]{3,6}[.][a-z]{1,3}$/;
     var Roll = /^[221710309]{9}[001-399]{3}$/;

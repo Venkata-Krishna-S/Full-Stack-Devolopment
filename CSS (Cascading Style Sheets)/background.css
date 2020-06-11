@@ -1,0 +1,11 @@
+.a1{background-color: black;}
+.a2{background-image: url("www.google.com");}
+.a3{background-attachment: fixed;}
+.a4{background-position: 50%;}
+.a5{background-repeat: repeat-x;}
+.a6{background-size: 10cm;}
+.a7{background-clip: content-box;}
+.a8{background-origin: padding-box;}
+.a9{background-blend-mode: soft-light;}
+.a10{enable-background: unset;}
+
