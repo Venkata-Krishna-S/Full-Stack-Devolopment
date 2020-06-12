@@ -1,0 +1,13 @@
+.a1{background-color: rgb(201, 47, 47);}
+.a2{background-image: url(https://homepages.cae.wisc.edu/~ece533/images/airplane.png);width: 13cm;height:3cm;}
+.a3{background-attachment: scroll;}
+.a4{background-position:right center;}
+.a5{background-repeat: no-repeat;}
+.a6{background-size: 13cm;}
+.a7{background-clip: content-box;}
+.a8{background-origin: padding-box;}
+.a9{background-blend-mode: soft-light;}
+.a10{enable-background: unset;}
+.a11{background-color: rgb(120, 182, 21);}
+.a13{backface-visibility: initial;}
+

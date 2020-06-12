@@ -5,7 +5,7 @@
 .a5{border-color: blue;}
 .a6{border-left: cadetblue;}
 .a7{border-right: coral;}
-.a8{border-width: 20px;}
+.a8{border-width: 5px;}
 .a9{border-style: dotted;}
 .a10{border-collapse: collapse;}
 .a11{border-spacing: 3px;}
@@ -13,3 +13,12 @@
 .a13{border-inline-end-width: 0px;}
 .a14{border-inline-style: dotted;}
 .a15{border-block-style: dotted;}
+.a16{border: lawngreen;}
+.a17{border: rgb(223, 17, 79);}
+.a18{border: tomato;}
+.a19{border: tomato;}
+.a20{border-style: groove;}
+.a21{border-style: double;}
+.a22{border-style: ridge;}
+.a23{border-style: dashed;}
+.a24{text-align: center;}
