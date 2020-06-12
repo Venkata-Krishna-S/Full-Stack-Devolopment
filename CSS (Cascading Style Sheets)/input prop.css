@@ -1,0 +1,15 @@
+select,option{
+    background-color: rgb(181, 189, 197);
+    border-radius: 8px;width: 49%;
+    text-align: center;
+    padding-left: 25%;
+             }
+input{
+    cursor: text;
+    background-color: rgb(183, 195, 207);
+    border-radius: 8px;
+    width: 50%;
+     }
+body{
+    background-color: mediumseagreen;
+    }
