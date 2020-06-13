@@ -1,0 +1,19 @@
+body{background-color: slategrey;}
+.a0{border-style: outset;text-align: center;
+    border-radius: 10px;background-color: 
+yellow;padding: 10px}
+h1:hover{transform: scale(3);}
+.a1{border-style: outset;text-align: center;border-radius: 10px;background-color: palegreen;padding: 10px;}
+h2:hover{transform:translate(30px,50px);}
+.a2{border-style: outset;text-align: center;
+    border-radius: 10px;background-color: red;padding: 10px;}
+h3:hover{transform: rotate(30deg);}
+.a3{border-style: outset;text-align: center;
+    border-radius: 10px;background-color: turquoise;padding: 10px}
+h4:hover{transform: rotateX(180deg);}
+.a4{border-style: outset;text-align: center;
+    border-radius: 10px;background-color: violet;padding: 8px}
+h5:hover{transform: skewy(10deg);}
+.a5{border-style: outset;text-align: center;
+    border-radius: 10px;background-color: yellow;padding: 5px}
+h6:hover{transform: matrix(1,0.2,0,1,0,0);}
