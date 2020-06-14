@@ -6,7 +6,7 @@ function val_all() {
     var us = /^[A-Z]{5,15}$/;
     var mo = /^[6-9][0-9]{9}$/;
     var emid = /^[a-zA-Z.]{6,15}[@][a-z]{3,6}[.][a-z]{1,3}$/;
-    var Roll = /^[221710309]{9}[001-399]{3}$/;
+    var Roll = /^[221710309]{9}[0-3][0-9][0-9]$/;
     if (un == ''||mb == '' || em == '' || rn == '') {
         window.alert("all fields are mandatory"); return false;
     } else {
