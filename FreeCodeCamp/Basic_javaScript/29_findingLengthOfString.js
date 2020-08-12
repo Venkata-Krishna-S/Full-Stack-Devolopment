@@ -13,3 +13,10 @@ var firstName = "Charles";
 //lastNameLength should be equal to eight.
 //You should be getting the length of lastName by using .length like this: lastName.length.
 //Navigated to Learn Basic JavaScript: Find the Length of a String | freeCodeCamp.org
+// Setup
+var lastNameLength = 0;
+var lastName = "Lovelace";
+
+// Only change code below this line
+
+lastNameLength = lastName.length;
