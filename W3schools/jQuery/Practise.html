@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    $(Document).ready (function) {
+        $("button").click(function() {
+            $("test").hide();
+        })
+        $(".test").hide();
+        $("*")
+        $(this) to select the current HTML element
+        $("p.intro"). selects all the elements with class="intro"
+        $("p:first") selects the first<p>element</p>
+$("ul li:first") selects the first <li>element of the first<ul></ul></li>
+$("ul li:first-child") selects the first<li>element of every<ul></ul></li>
+$("[href]") selects all the elements with an href attribute
+$("a[target='_blank']")selcts all <a>elements with a target attribute value equal to "_blank</a>
+    }
+    $("*") selects all the elements$("#lastname")
+    $(".class")
+    $(".intor,.demo")
+    $("p")
+    $("h1,div,p")
+    $("p:first") selects the first P element$("p:last") selects the last P element;
+    $("p:first-child") all P elements that are the first child of their parent;
+    $("tr:even") all the even<tr>elements</tr>
+    $("tr:odd") all the odd <tr>elements</tr>
+    $("p:first-of-type") all <p> elements that are the first element of their parent</p>
+    $("p:last-child") all p elements that are the last child of thier parent
+    $("p:last-of-type") all p elements that are the last element of thier parent
+    $("p:nth-child(2)")all elements that are the 2ns child of their parent
+    $("p:nth-last-child(2)") all p elements that are the 2nd chidl of their parent ,counting from the last child
+    $("p:nth-of-type(2)") all elements that are the second p element of their parent
+    $("p:nth-of type(2)") all p elements that are the 2nd element of their parent
+    $("p:nth-last-of-type(2)") all p elements that are the 2nd <p></p>
+    $("p:only-child") all elements that are the only child of their parent
+    $("p:only-of-type") all p elements that are the only child, of its type, of thier parent
+    $("div>p") all p elements that are a direct child of a <div>element</div>
+    $("div p") all p elements that are descendants of a <div>element</div>
+    $("div+p") the p element that are next to each <div>elements</div>
+    $("div~p") all p elements that appear after the <div element></div>
+    $("ul li:eq(3)") the fourth element in a list(index starts at o)
+    $("ul li:gt(3)") list elements with an index greater than 3;
+    $("ul li:it(3)") list elements with an index less than 3
+    $("input:not(:empty)") all input elements that are not empty
+    $(":header") all header elements <h1></h1>
+    $(":animated") all animated elements
+    $(":focus") the elements that currently has focus;
+    $(":contains('Hello)") all elements wihch contains the text "Hello"
+    $("div:has(p)") all div elements that have a p element
+
+    $(":empty") all elements that are empty
+    $(":parent") all elements that are a parent of another element
+    $("p:hidden") all hidden p elements
+    $("table:visible") all visible elements
+    $(":root") the documents root element
+    $("p:lang(de)") all p elements wiht a lang attribute value starting with "de"
+    $("[href]") all elements wiht a href atrribute
+    $("[href='default.htm']") all elements wiht a href atrribute value equal to "default.htm"
+    $("[href!=default.htm]") all elememts witha href attribute value not equla to "defalut.htm";
+    $("[href!='default.htm']") all elements with a href attribute value not equal ot "default.htm"
+    $("[href$='.jpg']") all elements with a href attribute value ending with ".jpg"
+    $("[title|='Tomorrow']") all elements with a title attribute value equal to 'Tomorrow',or starting with 'Tomorrow' followed by a hyphen
+    $("[title^='Tom']") all elements with a title attribute value starting with "Tom"
+    $("[title~='hello']") all elements with a title attriibute value containing the world "hello"
+    $(":input") all input vlaues
+    $(":text") all input elements with type="text"
+    $(":password") all input elements with type="password"
+    $(":radio") all input elements with type="radio"
+    $(":checkbox") all input elements with type="submit"
+    $(":reset") all input elements with type="reset"
+    $(":button") all input elements with type="button"
+    $(":image") all input elements with type = "image"
+    $(":file") all input elements with type="file"
+    $(":enabled") all enabled input elements
+    $(":disabled") all disabled input elements
+    $(":selected") all selected input elements
+    $(":checked") all checked input elements
+    $(Document).ready(function(){
+
+    });
+    $(document).ready(funciton(){
+
+    });
+    $(document).ready(function(){
+
+    });
+    $(document).ready(function(){
+
+    });
+    $(document).ready(function(){
+
+    });
+</body>
+</html>

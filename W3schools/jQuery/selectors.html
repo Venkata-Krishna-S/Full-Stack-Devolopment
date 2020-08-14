@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="/Bootstrap (Verison 4.5.0)/css/bootstrap.min.css">
+    <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+  $("button").dbclick(function() {
+        $("#test").hide();
+    })
+    $("#test").mouseenter(function(){
+  alert("You entered p1!");
+});
+});
+
+</script>
+</head>
+<body>
+    <class class="container"></class>
+<h2>This is the jquery using the element selector p</h2>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<button>Click me to hide paragraphs</button>
+ <h2>This is the jquery using the id selector "test"</h2>
+ <p id="test">Hi please click the button below to hid the contents of this para with the id = test.</p>
+<button>click to hide</button>
+</class>
+</body>
+</html>
