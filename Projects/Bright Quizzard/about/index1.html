@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Black & White | Mousemove</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <section>
+        <div class="pointer"></div>
+        <h1>About  Us</h1>
+            <h4>
+                Bright Quizzard is an industry leading quizzing company that operates in India and North America. Established in 2010, we have used quizzing as a technique to engage customers and employees digitally and physically across 100+ cities in India and abroad.                With a team from top engineering and business schools, we have worked with Fortune 500 customers and have won 6 awards and accolades from organizations like Nasscom, Aditya Birla Group, Oracle, Reliance, and UK Trade and Investments.
+                <img src="agrwal.png">
+            </h4>
+    </section>
+    <script
+        src="http://code.jquery.com/jquery-3.3.1.js">
+    </script>
+    <script type="text/javascript">
+    $(document).mousemove(function(e){
+        $('.pointer').css({left:e.pageX,top:e.pageY})
+    })</script>
+</body>
+</html>

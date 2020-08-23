@@ -1,0 +1,61 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background: linear-gradient(to right,#000000c7,rgba(0, 0, 0, 0.712));
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+  
+}
+/* slider start*/
+#slider{
+      overflow: hidden;
+    }
+    #slider figure{
+      position: relative;
+      width: 500%;
+      height: 1%;
+      margin: 0;
+      left: 0;
+      animation: 30s slider infinite;
+    }
+    #slider figure img{
+      width: 20%;
+      float: left;
+    }
+    @keyframes slider {
+      0% {
+        left: 0;
+      }
+      20% {
+        left: 0;
+      }
+      25% {
+        left: -100%;
+      }
+      45% {
+        left: -100%;
+      }
+      50% {
+        left: -200%;
+      }
+      70%{
+        left: -200%;
+      }
+      75% {
+        left: -300%;
+      }
+      95% {
+        left: -300%
+      }
+      96% {
+        left: -400%;
+      }
+      100%{
+        left: -400%
+      }
+    }
+    /*slider end*/
+    

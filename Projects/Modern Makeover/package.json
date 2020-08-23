@@ -1,0 +1,17 @@
+{
+  "name": "modern-makeover",
+  "version": "1.0.0",
+  "description": "This template was made by Colorlib (https://colorlib.com) Please visit our website for more awesome templates, themes and tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "sweetalert2": "^9.17.0"
+  }
+}

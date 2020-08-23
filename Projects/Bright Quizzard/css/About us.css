@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color:rgb(73, 72, 66);
+}
+.btn {
+	text-decoration: none;
+	margin-left: 320px;
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+	display: inline-block;
+	align-content: center;
+	padding: 10px 14px;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+	background: transparent;
+	border-radius: 50px;
+}
+.btn:nth-child(1):hover{
+	background: linear-gradient(to right,#ff00aab0,rgba(255, 136, 0, 0.685));}
+.btn:nth-child(2):hover {
+	background: linear-gradient(to right,#ff00aab0,rgba(255, 136, 0, 0.685));
+}

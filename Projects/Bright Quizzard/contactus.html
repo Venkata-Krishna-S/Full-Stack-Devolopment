@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us </title>
+        <link rel="StyleSheet" href="css\nav.css" />
+        <link href="http://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+        <link href="css\contactus.css" rel="stylesheet">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+        <script type="text/javascript">
+        (function(){
+            emailjs.init("user_3DgTBtCos8GwwD1fbiryG");
+        })();
+        </script>
+    </head>
+    <body> 
+        <div>
+            <header>
+                <a class="logo" href="/"><img src="images\Logo.png" alt="logo"></a>
+                <nav>
+                    <ul class="nav__links">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About us.html">About Us</a></li>
+                        <li><a href="Our Team.html">Our Team</a></li>
+                        <li><a href="#contactus">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <a class="login" href="login-signup\index.html">Login</a>
+            </header>
+        <img src="images\contactus background.jpg" height="900px" width="2000rem   ">
+        <div >
+            <div class="nav">
+            </div class="left"> 
+        </div>
+        <div class="header">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="form">
+            <form method="post" action="">
+                <input type="text"id="toname" name="first_name" placeholder="Name" required />
+                <input type="text" id="email"  name="gmail" placeholder="Email" required />
+                <input type="text"  id="msg" name="comments" placeholder="message"/>
+                <button type="button" id="let" onclick="myfunction()">Let's talk</button>
+            </form>  
+        </div>
+        <div id="contactus">
+            <img src="images\Calinda1.png" >
+        </div>
+    </div>
+    <script type="text/javascript">
+        function myfunction(){            
+            var templateParams = {
+                to_name: 'kumar',
+                from_name: 'akhil',
+                message_html: "hey what's up"
+            };
+
+            emailjs.send('gmail', 'template_f8zUsXrB', templateParams)
+                .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                }, function(error) {
+                console.log('FAILED...', error);
+                });
+            };
+    </script>
+    </body>
+</html>

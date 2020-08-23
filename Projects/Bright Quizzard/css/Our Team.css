@@ -1,0 +1,93 @@
+.team-section{
+    height: 100vh;
+    display: flex;
+}
+
+.person{
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: .6s;
+}
+
+.person:hover{
+    flex: 3;
+}
+
+.person-pic{
+    position: absolute;
+    height: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: grayscale(80%);
+    filter: blur(6px);
+    transition: .3s;
+}
+.person:hover .person-pic{
+  filter: grayscale(0);
+}
+.person-info{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    transition: .2s;
+}
+
+.person:hover .person-info{
+    opacity: 1;
+    bottom: 60px;
+    transition-delay: .6s;
+}
+
+.person-info h2{
+    font-size: 20px;
+    color: #fff;
+}
+
+.person-info p{
+    color:rgb(255, 118, 6);
+    font-style: italic;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.sociallist a{
+  display: inline-block;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  color: #666;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0px 6px;
+  cursor: pointer;
+  transition: .5s;
+  margin-top: 2rem;
+}
+.sociallist a:nth-child(1):hover{
+  color: #456cba;
+  box-shadow: 0 0 15px #4267B2;
+  text-shadow: 0 0 15px #4267B2;
+}
+.sociallist a:nth-child(2):hover{
+  color: #26a4f2;
+  box-shadow: 0 0 15px #1DA1F2;
+  text-shadow: 0 0 15px #1DA1F2;
+}
+.sociallist a:nth-child(3):hover{
+  color: #e23670;
+  box-shadow: 0 0 15px #E1306C;
+  text-shadow: 0 0 15px #E1306C;
+}
+.sociallist a:nth-child(4):hover{
+  color: #ff1a1a;
+  box-shadow: 0 0 15px #ff0000;
+  text-shadow: 0 0 15px #ff0000;
+}
+h4{
+
+  margin-top: 6rem;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
