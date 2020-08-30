@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideToggle</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#f1").click(function(){
+                $("#f2").slideToggle("small");
+            })
+        })
+    </script>
+    <style>
+        h2{
+            font-family: cursive;
+            padding: 5%;
+            background-color: aquamarine;
+            border-style: groove;
+        }
+        p{
+            font-family: monospace;
+            padding: 10%;
+            background-color: bisque;
+            border-style: dotted;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2 id="f1">Hi there click this heading to toggle the slide animation from jquery</h2>
+    <p id="f2">whatever you do always give your one hundred percent</p>
+</body>
+</html>

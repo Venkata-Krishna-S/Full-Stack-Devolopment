@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fadeToggle</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#id1").fadeToggle();
+                $("#id2").fadeToggle("slow");
+                $("#id3").fadeToggle(4000);
+            });
+        });
+    </script>
+</head>
+<body>
+    <h2>Hi there check the below para for the fadetoggle animation effect using the jquery.</h2>
+    <button>click to toggle the fade</button>
+    <p id="id1">Rich in cars, poor in carts, but people like in hearts !</p>
+    <p id="id2">There is always a better way of doing things</p>
+    <p id="id3">I am the One Neo ! its time you get out of the matrix and see through things as they are </p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#p1").fadeOut();
+        $("#p2").fadeOut("slow");
+        $("#p3").fadeOut(5000);
+        $("#p4").fadeOut("fast");
+    })
+})
+    </script>
+</head>
+<body>
+    <h2>This is html using the jquery to fadeout the P-elements</h2>
+    <p id="p1">Hi there this the paragraph that the above heading talks about fading out on clicking the below button.</p>
+    <p id="p2">Hi there this the paragraph that the above heading talks about fading out on clicking the below button.</p>
+    <p id="p3">Hi there this the paragraph that the above heading talks about fading out on clicking the below button.</p>
+    <p id="p4">Hi there this the paragraph that the above heading talks about fading out on clicking the below button.</p>
+    <button>Please click to fadeout</button>
+</body>
+</html>

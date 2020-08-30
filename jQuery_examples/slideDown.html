@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideDown</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+    $("#f1").click(function(){
+        $("#p1").slideDown("slow");
+    });
+})
+    </script>
+    <style>
+        body{
+            background-color: dimgrey;
+        }
+        #f1{
+            padding: 3%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            background-color: aqua;
+        }
+        #p1{
+            padding: 10%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: large;
+            background-color: rgb(98, 212, 216);
+            text-align: justify;
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <h2 id="f1">Click this to display a slideDown animation using jquery</h2>
+    <p id="p1">This paragraph is written to display the slideDown animation.</p>
+</body>
+</html>

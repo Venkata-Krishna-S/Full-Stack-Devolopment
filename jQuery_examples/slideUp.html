@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideUp</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+    $("#f1").click(function(){
+        $("#f2").slideUp("slow");
+    });
+});
+    </script>
+    <style>
+        h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: crimson;
+            padding: 5%;
+            text-align: center;
+        }
+        p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: cadetblue;
+            padding: 10%;
+            text-align: center;
+        }
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 id="f1">This is a page to show the slide up animation using the jquery</h2>
+    <p id="f2">Hi there this is a paragraph that on clicked on the heading sldies up to showing a slideup animation from  the jquery</p>
+</body>
+</html>

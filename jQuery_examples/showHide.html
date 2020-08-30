@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>showHide</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#bt1").click(function(){
+                $("#p1").hide("slow");
+            });
+            $("#bt2").click(function(){
+                $("#p2").show("slow");
+            });
+            $("#bt3").click(function(){
+                $("#p3").toggle("slow");
+            });
+        });
+    </script>
+    <style>
+        h2{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        button{
+            background-color: aqua;
+            text-align: center;
+            padding: 1%;
+            border-radius: 10%;
+            margin-left: 500px;
+        }
+        p{
+            background-color: azure;
+            padding: 10%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        #p2{display: none;}
+        body{
+          background-color: darkgray;  
+        }
+    </style>
+</head>
+<body>
+    <h2>Click the following buttons to show or hide the paras below</h2>
+    <button id="bt1">hide</button><br>
+    <p id="p1">this paragraph is to represent the hide animation of the jquery</p><br>
+    <button id="bt2">show</button><br>
+    <p id="p2">this paragraph is to represent the show animation of the jquery</p><br>
+    <button id="bt3">toggle</button><br>
+    <p id="p3">this paragraph is to represent the toggle show or hide animation of the jquery</p><br>
+</body>
+</html>

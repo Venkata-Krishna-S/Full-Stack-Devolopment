@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fadeTo</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#f1").fadeTo("slow",0.15);
+                $("#f2").fadeTo("slow",0.3);
+                $("#f3").fadeTo("slow",0.8);
+            })
+        })
+    </script>
+</head>
+<body>
+    <h2>Hi check out this cool animation using the jquery to fade by clicking the button below</h2><br>
+    <button>FadeTo</button>
+    <div id="f1" style="width: 80px;;height:80px;background-color:red"></div><br>
+    <div id="f2" style="width: 80px;height: 80px;background-color: aqua;"></div><br>
+    <div id="f3" style="width: 80px;height: 80px;background-color: blue;"></div><br>
+</body>
+</html>

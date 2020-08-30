@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animate</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#dv1").animate({left: '250px'});
+        $("#dv2").animate({left:'250px',opacity:'0.5',height:'100px',width:'100px'})
+    });
+});
+    </script>
+</head>
+<body>
+    <h2>watch the block move to the right using the animation of jquery</h2><br>
+    <button>animate</button>
+    <div id="dv1" style="width: 80px; height: 80px; background-color: brown;position: absolute;"></div>
+    <div id="dv2" style="width: 60px; height: 60px;background-color: black;position: absolute;"></div>
+</body>
+</html>

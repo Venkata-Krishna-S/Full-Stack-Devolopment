@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relativeAnimation</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("div").animate({left: '250px',height:'+=150px',width:'+=150px'});
+            });
+        });
+    </script>
+</head>
+<body>
+    <h2>click the button below to change the animation of the div element relatively</h2>
+    <button>animate</button>
+    <div style="width: 80px; height: 80px; background-color: darkgoldenrod;position: obsolute;"></div>
+</body>
+</html>
