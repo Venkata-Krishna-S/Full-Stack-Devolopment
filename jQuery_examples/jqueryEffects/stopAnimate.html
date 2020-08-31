@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopAnimate</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#f2").click(function(){
+                $("#f1").slideDown(3000);
+            });
+            $("button").click(function(){
+                $("#f1").stop();
+            });
+        });
+    </script>
+</head>
+<body>
+    <h2 id="f2">click me to slide the paragraph</h2>
+    <button>stop</button>
+    <p id="f1" style="display: none;padding: 200px;background-color:aqua;">Hi there how are you doing today ? just stay home and stay safe everything shall be fine !</p>
+</body>
+</html>

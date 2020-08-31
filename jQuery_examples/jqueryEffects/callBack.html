@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callback</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#f1").slideDown(5000,function(){
+                    alert("hi this is a slide down animation")
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <button>slide</button>
+    <p id="f1" style="display: none;padding: 100px; background-color:chocolate">Hi there this is to make you understand the callback funcitonality from jquery where the animations are executed and only then the other functions are excuted which are written within the same funciton.</p>
+</body>
+</html>

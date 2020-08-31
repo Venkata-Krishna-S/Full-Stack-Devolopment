@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>animateToggle</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+          $("div").animate({
+            left: "toggle",
+            height: "toggle",
+            width: "toggle",
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h2>
+      click the button below to change the animation of the div element
+      relatively
+    </h2>
+    <button>animate</button>
+    <div
+      style="
+        width: 100px;
+        height: 100px;
+        background-color: rgb(11, 144, 184);
+        position: obsolute;
+      "
+    ></div>
+  </body>
+</html>
