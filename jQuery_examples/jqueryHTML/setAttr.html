@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#text1").attr({
+                    href: "www.whatisthis.com",
+                    title: "idontknow"
+                })
+                $("#text2").attr("href",function(i, origValue){
+                    return origValue + "/jquery/";
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+    <button>click me to change the link</button>
+    <a id="text1" title="thisiknow" href="www.thisisthere.com">it had been changednow look</a>
+    <a id="text2" title="empty" href="www.yesyoucan.com">this is button 2</a>
+</body>
+</html>

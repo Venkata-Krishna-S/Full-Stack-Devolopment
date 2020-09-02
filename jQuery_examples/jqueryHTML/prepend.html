@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $("p").prepend("<b>Prepended text</b>");
+            })
+            $("#btn2").click(function(){
+                $("ol").prepend("<li>prepended item</li>");
+            })
+        })
+    </script>
+</head>
+<body>
+    <h2>please click on the following buttons to see the prepended text in para and list items</h2>
+    <button id="btn1">click to prepend para</button>
+    <button id="btn2">clcik to prepend list item</button>
+    <p>- this is how the text is prepended infornt of the para element.</p>
+    <ol>
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+        <li>item four</li>
+    </ol>
+</body>
+</html>

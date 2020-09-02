@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+     <script>
+         $(document).ready(function(){
+             $("button").click(function(){
+                 alert($("#ws").attr("href"))
+             })
+         })
+     </script>
+</head>
+<body>
+    <button>click to see the attribute value</button>
+    <p><a id="ws" href="https://www.w3schools.com/">W3schools</a></p>
+</body>
+</html>

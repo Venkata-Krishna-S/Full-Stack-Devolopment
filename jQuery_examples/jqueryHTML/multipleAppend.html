@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>append function</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        function appendtext(){
+         var txt1 = "<p>Text.</p>";        // Create text with HTML
+  var txt2 = $("<p></p>").text("Text.");  // Create text with jQuery
+  var txt3 = document.createElement("p");
+  txt3.innerHTML = "Text.";         // Create text with DOM
+  $("body").append(txt1, txt2, txt3);   // Append new elements
+          var txt1 = "<p>creating txt using html</p>";
+          var txt2 = $("<p></p>").text("para using jquery");
+          var txt3 = document.createElement("p")
+          txt3.innerHTML = "new element";
+          $("body").append(txt1,txt2,txt3);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
