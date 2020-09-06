@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToggleClass</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("h2, h4, p").toggleClass("blue");
+            })
+        })
+    </script>
+    <style>
+        .blue{
+            background-color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <button>click to toggle css</button>
+    <h2>this is heading two element.</h2>
+    <h4>this is heading four element.</h4>
+    <p>this is a paragraph element.</p>
+</body>
+</html>

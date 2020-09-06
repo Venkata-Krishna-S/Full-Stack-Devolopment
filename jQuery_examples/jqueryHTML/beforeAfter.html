@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeforeAfter</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $("img").before("<b>Before</b>");
+            })
+            $("#btn2").click(function(){
+                $("img").after("<b>After</b>");
+            })
+        })
+    </script>
+</head>
+<body>
+    <h2>click the buttons below to see the before and after elements.</h2>
+    <button id="btn1">Before</button>
+    <button id="btn2">After</button>
+    <img src="/jQuery_examples/jqueryHTML/w3jquery.gif" alt="W3jquery">
+</body>
+</html>

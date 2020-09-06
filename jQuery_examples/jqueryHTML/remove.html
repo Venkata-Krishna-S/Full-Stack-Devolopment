@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remove</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $("#div1").remove();
+            })
+            $("#btn2").click(function(){
+                $("#div2").empty();
+            })
+            $("#btn3").click(function(){
+                $("p").remove(".test")
+            })
+        })
+    </script>
+</head>
+<body>
+    <h2>click the button below to remve the css linked to the div element</h2>
+    <button id="btn1">click to remove div element</button>
+    <button id="btn2">click to empty the child elements fo div </button>
+    <button id="btn3"> click to  child elements</button>
+    <div id="div1" style="background-color:blueviolet">
+        <p>Hi this is the paragraph.</p>
+        <p class="test">Hi it is gonna remove the elements with this class</p>
+    </div>
+    <div id="div2" style="background-color:brown; width:80px; height:80px">
+    <p>this is a paragraph.</p></div>
+</body>
+</html>

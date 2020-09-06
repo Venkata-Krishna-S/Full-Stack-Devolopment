@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        function aftertext() {
+            var txt1 = "<b>I </b>";
+            var txt2 = $("<i></i>").text("love");
+            var txt3 = document.createElement("b");
+            txt3.innerHTML = "jQuery!";
+            $("img").after(txt1,txt2,txt3);
+        }   
+    </script>
+</head>
+<body>
+    <img src="/jQuery_examples/jqueryHTML/w3jquery.gif" alt="">
+    <p>click the button to insert the txt after image.</p>
+    <button onclick="aftertext()">insert after</button>
+</body>
+</html>
